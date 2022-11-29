@@ -1,4 +1,4 @@
-# YNKI
+# YANKI
 
 ## CLI Commands
 
