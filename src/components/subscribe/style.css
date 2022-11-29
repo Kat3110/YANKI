@@ -1,0 +1,48 @@
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    padding: 0 35px;
+    gap: 30px 0;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 36px;
+    text-align: center;
+    color: #252525;
+    margin: 0;
+}
+.input {
+    font-size: 16px;
+    width: 600px;
+    height: 50px;
+    border: 1px solid #252525;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: 200;
+    color: rgba(37, 37, 37, 0.5);
+}
+
+.btn {
+    font-size: 16px;
+    width: 600px;
+    height: 50px;
+    background: #e0bea2;
+    font-weight: 200;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+}
+
+.subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 200;
+    text-align: center;
+    color: #252525;
+    margin:0 ;
+}
