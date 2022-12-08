@@ -54,12 +54,21 @@
     color: #fff;
     cursor: pointer;
     display: flex;
-}
 
+
+}
+.subtitle:hover {
+    font-weight: 400;
+}
 .subtitle:after {
     content: ' ';
-    transform: rotate(270deg);
     background: url("../../assets/icons/arrow.svg") no-repeat center;
     width: 20px;
     height: 20px;
+    transform: scale(1) rotate(270deg) translateX(0em) translateY(2px);
+    transition: transform .5s;
+    display: inline-block;
+}
+.subtitle:hover:after {
+    transform: scale(1.6) rotate(270deg) translateX(0em) translateY(5px);
 }

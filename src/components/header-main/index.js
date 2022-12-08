@@ -18,21 +18,21 @@ const HeaderMain = () => (
             </div>
 
             <Link className={style.listItemLink} href="/">
-                <img src={logo} alt="логотип"/>
+                <img src={logo} alt="логотип" />
             </Link>
 
             <div>
                 <Link className={style.listItemLink} href="/">
-                    <img src={search} alt="поиск"/>
+                    <img className={style.iconListItem} src={search} alt="поиск"/>
                 </Link>
                 <Link className={style.listItemLink} href="/">
-                    <img src={user} alt="личный кабинет"/>
+                    <img className={style.iconListItem} src={user} alt="личный кабинет"/>
                 </Link>
                 <Link className={style.listItemLink} href="/">
-                    <img src={favourites} alt="избранное"/>
+                    <img className={style.iconListItem} src={favourites} alt="избранное"/>
                 </Link>
                 <Link className={style.listItemLink} href="/">
-                    <img src={basket} alt="корзина"/>
+                    <img className={style.iconListItem} src={basket} alt="корзина"/>
                 </Link>
             </div>
         </nav>
