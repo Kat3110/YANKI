@@ -1,0 +1,86 @@
+.cardBox {
+    max-width: 310px;
+    height: 360px;
+    width: 100%;
+    position: relative;
+}
+
+.cardBoxFavourites {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    background: #E0BEA2;
+    border-radius: 0 0 0 20px;
+}
+
+.cardBox svg {
+    fill: #FFFFFF;
+    width: 15px;
+    height: 14px;
+    cursor: pointer;
+}
+
+.cardBox svg:hover {
+    animation: none;
+    fill: #444444;
+}
+
+.cardBox svg:focus{
+    animation: none;
+}
+
+.cardBoxImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 80%;
+}
+
+.cardBoxGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px 0;
+}
+
+.cardBoxTitle {
+    font-weight: 300;
+    font-size: 20px;
+    color: #252525;
+    margin: 0;
+}
+
+.cardBoxPrice {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.cardBoxList {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 0 10px;
+}
+
+.cardBoxList .cardBoxItem {
+    font-size: 16px;
+    color: rgba(37, 37, 37, 0.5);
+}
+
+.cardBoxItemBtn {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.cardBoxItemBtn:hover {
+    color: #88a66b;
+}

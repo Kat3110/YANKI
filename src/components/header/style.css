@@ -1,4 +1,4 @@
-.headerMain {
+.header {
     width: 100%;
     height: max-content;
     padding: 20px 20px 0;
@@ -14,24 +14,27 @@
 
 .listItemLink {
     display: inline-block;
-    font-size: 18px;
     padding: 0 15px;
     min-width: 50px;
     text-align: center;
-    background: rgba(255,255,255,0);
     text-decoration: none;
-    color: #FFF;
+    color: #252525;
     will-change: background-color;
+    font-size: 18px;
 }
-.headerMain nav a:hover {
+.header nav a:hover {
     color: #e0bea2;
 }
+.logo {
+    cursor: pointer;
+    z-index: 4;
+}
 svg {
-    fill: #FFFFFF;
+    fill: #e0bea2;
 }
 svg:hover  {
-    fill: #e0bea2;
     animation: 1.2s ease 0s normal none 1 running shake;
+    fill: #515151;
 }
 @keyframes shake {
     0% {
