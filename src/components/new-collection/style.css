@@ -54,11 +54,11 @@
     color: #fff;
     cursor: pointer;
     display: flex;
-
-
 }
 .subtitle:hover {
     font-weight: 400;
+    transform: scale(1.2);
+    transition: transform ease-in 0.5s;
 }
 .subtitle:after {
     content: ' ';
