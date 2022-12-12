@@ -20,6 +20,18 @@ html, body {
 #app {
 	height: 100%;
 }
+#ColorWhite {
+	background: #FFFFFF;
+	border-color: #252525;
+}
+#ColorBlue {
+	background: #6F83A4;
+	border-color: #6F83A4;
+}
+#ColorYellow {
+	background: #F1DDAA;
+	border-color: #F1DDAA;
+}
 /*path:hover {*/
 /*	fill: currentColor !important;*/
 /*	color: #e0bea2;*/
