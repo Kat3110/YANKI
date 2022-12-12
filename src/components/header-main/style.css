@@ -28,7 +28,7 @@
 }
 
 .iconListItem:hover  {
-    animation: 1200ms ease 0s normal none 1 running shake;
+    animation: 1.2s ease 0s normal none 1 running shake;
 }
 @keyframes shake {
     0% {
