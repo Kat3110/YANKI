@@ -2,14 +2,14 @@ import {h} from 'preact';
 import {Link} from 'preact-router/match';
 import style from './style.css';
 import logo from "../../assets/icons/YANKI.svg";
-import search from "../../assets/icons/loupe.svg";
-import favourites from "../../assets/icons/like.svg";
-import user from "../../assets/icons/Frame.svg";
-import basket from "../../assets/icons/basket.svg";
+import SvgSearch from "../SvgComponent/SvgComponentSearch";
+import SvgAccount from "../SvgComponent/SvgComponentPersonalAccount";
+import SvgLike from "../SvgComponent/SvgComponentLike";
+import SvgBasket from "../SvgComponent/SvgComponentBasket";
 
 
 const HeaderMain = () => (
-    <header className={style.header}>
+    <header className={style.headerMain}>
         <nav className={style.listItem}>
             <div>
                 <Link className={style.listItemLink} href="/new">new</Link>
@@ -23,16 +23,16 @@ const HeaderMain = () => (
 
             <div>
                 <Link className={style.listItemLink} href="/">
-                    <img className={style.iconListItem} src={search} alt="поиск"/>
+                    <SvgSearch />
                 </Link>
                 <Link className={style.listItemLink} href="/">
-                    <img className={style.iconListItem} src={user} alt="личный кабинет"/>
+                    <SvgAccount />
                 </Link>
                 <Link className={style.listItemLink} href="/">
-                    <img className={style.iconListItem} src={favourites} alt="избранное"/>
+                    <SvgLike />
                 </Link>
                 <Link className={style.listItemLink} href="/">
-                    <img className={style.iconListItem} src={basket} alt="корзина"/>
+                    <SvgBasket />
                 </Link>
             </div>
         </nav>

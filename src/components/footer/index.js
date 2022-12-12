@@ -1,6 +1,6 @@
 import style from './style.css';
-import Inst from '../../assets/icons/inst.svg'
-import Telegram from '../../assets/icons/telega.svg'
+import SvgInst from "../SvgComponent/SvgComponentInst";
+import SvgTelegram from "../SvgComponent/SvgComponentTelegram";
 
 const Footer = () => (
     <footer className={style.footer}>
@@ -65,11 +65,7 @@ const Footer = () => (
                                 target="_blank"
                             >
                                 <div className={style.listlinkbox}>
-                                    <img
-                                        className={style.listlinkbox}
-                                        src={Inst}
-                                        alt="соцсети"
-                                    /></div
+                                    <SvgInst /></div
                                 >
                             </a>
                             <a
@@ -78,11 +74,7 @@ const Footer = () => (
                                 target="_blank"
                             >
                                 <div className={style.listlinkbox}>
-                                    <img
-                                        className={style.listlinkbox}
-                                        src={Telegram}
-                                        alt="соцсети"
-                                    /></div
+                                    <SvgTelegram /></div
                                 >
                             </a>
                         </div>

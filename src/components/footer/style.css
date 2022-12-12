@@ -74,3 +74,10 @@
     display: flex;
     justify-content: center;
 }
+
+.footer svg {
+    fill: #e0bea2;
+}
+.footer svg:hover {
+    fill:#88a66b;
+}

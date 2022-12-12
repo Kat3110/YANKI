@@ -1,4 +1,4 @@
-.header {
+.headerMain {
     width: 100%;
     height: max-content;
     padding: 20px 20px 0;
@@ -23,11 +23,14 @@
     color: #FFF;
     will-change: background-color;
 }
-.header nav a:hover {
+.headerMain nav a:hover {
     color: #e0bea2;
 }
-
-.iconListItem:hover  {
+svg {
+    fill: #FFFFFF;
+}
+svg:hover  {
+    fill: #e0bea2;
     animation: 1.2s ease 0s normal none 1 running shake;
 }
 @keyframes shake {
